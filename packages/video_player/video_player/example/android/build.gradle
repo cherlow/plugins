@@ -16,6 +16,7 @@ allprojects {
         maven {
             url 'https://google.bintray.com/exoplayer/'
         }
+       
     }
 }
 
