@@ -50,9 +50,7 @@ android {
 }
 
 dependencies {
-
-
-
-implementation project(path: ':extension-ffmpeg-release')
+    implementation project(path: ':extension-ffmpeeg-release')
 }
+
 
