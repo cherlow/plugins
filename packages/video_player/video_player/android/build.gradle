@@ -49,8 +49,5 @@ android {
     }
 }
 
-dependencies {
-    implementation project(path: ':extension-ffmpeeg-release')
-}
 
 
