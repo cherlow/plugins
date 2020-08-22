@@ -1,4 +1,4 @@
-include ':extension-ffmpeeg-release'
+include ':extension-ffmpeg-releasea'
 include ':app'
 
 def flutterProjectRoot = rootProject.projectDir.parentFile.toPath()
@@ -14,3 +14,4 @@ plugins.each { name, path ->
     include ":$name"
     project(":$name").projectDir = pluginDirectory
 }
+

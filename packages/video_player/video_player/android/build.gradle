@@ -16,10 +16,8 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
-         flatDir {
-            //directory name
-            dirs 'libs'
-        }
+
+
 
     }
 }
@@ -48,6 +46,9 @@ android {
         implementation 'com.google.android.exoplayer:exoplayer-hls:2.11.7'
         implementation 'com.google.android.exoplayer:exoplayer-dash:2.11.7'
         implementation 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.7'
+        implementation project(":extension-ffmpeg-releaseb")
+
+
 
 
 
@@ -57,7 +58,8 @@ android {
 }
 
 dependencies {
-    implementation files("libs/extension-ffmpeg-release.aar")
+
+
 }
 
 
