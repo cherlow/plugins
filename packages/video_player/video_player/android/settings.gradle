@@ -1,2 +1,2 @@
-include ':extension-ffmpeg-releaseb'
+include ':extension-ffmpeg-released'
 rootProject.name = 'video_player'
