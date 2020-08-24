@@ -58,8 +58,8 @@ android {
 
 dependencies {
 
+    implementation files('libs/extension-ffmpeg-release.aar')
 
-    implementation project(':extension-ffmpeg-released')
 }
 
 
