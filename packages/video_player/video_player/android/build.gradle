@@ -60,7 +60,7 @@ dependencies {
 
 
 implementation project(path: ':extension-ffmpeg-released')
-implementation files('/libs/extension-ffmpeg-release')
+implementation files('libs/extension-ffmpeg-release')
 }
 
 
